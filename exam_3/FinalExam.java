@@ -106,7 +106,10 @@ public class FinalExam {
         for (int row = 0; row < array.length; row++) {
             System.out.println("");
             for (int column = 0; column < array.length; column++) {
-                if (row == 12 && column == 0 || row == 11 && column == 1 || row == 10 && column == 2 || row == 9 && column == 3 || row == 8 && column == 4 || row == 7 && column == 5 || row == 6 && column == 6 || row == 5 && column == 7) {
+                if (row == 12 && column == 0 || row == 11 && column == 1 || 
+                    row == 10 && column == 2 || row == 9 && column == 3 || 
+                    row == 8 && column == 4 || row == 7 && column == 5 || 
+                    row == 6 && column == 6 || row == 5 && column == 7) {
                     System.out.print(array[row][column]);
                 } else {
                     System.out.print(" ");
@@ -210,3 +213,71 @@ public class FinalExam {
             }
         }
         System.out.println();
+        
+        // =============================================================
+
+        // BONUS (PRIZE AWAITS!)
+        System.out.println(" ");
+        System.out.println("11. Elizer needs your help!");
+
+        // Elizer loves to watch professional basketball. He is an avid fan of a certain
+        // team which he follows on social media.
+        // One day, he saw a post where his favorite team revealed their brand new home
+        // and guest uniforms for the upcoming season.
+
+        // The home and guest uniform are of different color.
+        // All basketball teams have a home uniform which they wear if they are on their
+        // home arena. On the other hand, the guest uniform is worn by teams who are
+        // visiting their opponent's arena.
+
+        // Sometimes, the color of the guest uniform of the visiting team can be the
+        // same color with the uniform of the home team. If this happens, the home
+        // team will put on their guest uniform so that they would be different.
+
+        // There are n teams taking part in the regular season. Elizer asked himself how
+        // many times a home team will have to wear their guest uniform?
+
+        // The regular season consists of n * ( n - 1) games. Each team will have a home
+        // game and away game.
+        // The color of the uniforms are represented by integers. No two distinct colors
+        // can have the same number.
+        // Help Elizer find the answer to his question!
+
+        // Requirements
+        // 1. Ask for the number of n teams participating.
+        // 2. Ask for a pair of numbers, the home and away colors for each
+        // participating team.
+        // 3. The answer should be the number of times a home team will wear their away
+        // uniform.
+
+        // =============================================================
+        // Example:
+        // Input:
+        // 3
+        // 1 2
+        // 2 4
+        // 3 4
+
+        // Answer
+        // 1
+
+        // Note: In this example, the season will have a total of six games.
+        // There is game where team 2 will have to wear their guest uniform if team 1
+        // visits their arena.
+        
+        // BONUS (PRIZE AWAITS!)
+        System.out.println(" ");
+        System.out.println("12. Everybody has a price!");
+        
+        // Create a program and find out the condition to prove the following statements below.
+        // ELIZER == ZOPHIA is TRUE
+        // TONI > MARC is FALSE.
+        
+        // Input:
+        // The first line is any name in UPPERCASE which only consists of characters from A-Z;
+        // The second line is any name in UPPERCASE which only consists of characters from A-Z;
+        
+        // Output:
+        // TRUE or FALSE
+    }
+}
